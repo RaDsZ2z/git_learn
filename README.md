@@ -1,4 +1,4 @@
-# # git远程连接github仓库的 quick start(mac为例)
+# git远程连接github仓库的 quick start(mac为例)
 
 [教程视频](https://www.bilibili.com/video/BV1HM411377j?vd_source=8924ad59b4f62224f165e16aa3d04f00&spm_id_from=333.788.videopod.sections&p=11)
 
