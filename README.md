@@ -11,7 +11,7 @@ cd ~/.ssh
 #协议为rsa 大小为4096
 ssh-keygen -t rsa -b 4096
 [密钥名称] #密钥名称 可缺省
-[密钥密码] #密码密码 可却省
+[密钥密码] #密码密码 可却省（感觉没有必要）
 ```
 
 假设为的密钥名称是`rads_mac`
@@ -40,8 +40,6 @@ IdentityFile ~/.ssh/rads_mac
 
 对于`git clone`得到的文件则不需要使用`git add`
 
-
-
 修改文件时，修改的是本地文件而非本地仓库的文件
 
 需要使用`git commit -a -m "[commit message]"`来提交到本地仓库
@@ -53,3 +51,12 @@ IdentityFile ~/.ssh/rads_mac
 ## 3.拉取文件
 
 `git pull`
+
+## 4.本地git配置
+
+```shell
+git config --global user.name "my name" #设置name
+git config --global user.email "my email" #设置email
+git config --global --list #查看git配置信息
+```
+
