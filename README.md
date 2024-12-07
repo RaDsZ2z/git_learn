@@ -38,6 +38,8 @@ IdentityFile ~/.ssh/rads_mac
 
 对于任何在本地创建的文件，需要先`git add [filename]`，这样在提交时该文件才会被包括在被提交文件中
 
+如果想add某个文件夹应该 `git add [foldername/]`，需要在后面加上斜线
+
 对于`git clone`得到的文件则不需要使用`git add`
 
 修改文件时，修改的是本地文件而非本地仓库的文件
