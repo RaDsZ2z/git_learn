@@ -34,6 +34,22 @@ IdentityFile ~/.ssh/rads_mac
 
 再到某空目录下执行`git clone [SSH]`就可以拉取仓库了
 
-## 2.git push
+## 2.提交文件
 
-## 
+对于任何在本地创建的文件，需要先`git add [filename]`，这样在提交时该文件才会被包括在被提交文件中
+
+对于`git clone`得到的文件则不需要使用`git add`
+
+
+
+修改文件时，修改的是本地文件而非本地仓库的文件
+
+需要使用`git commit -a -m "[commit message]"`来提交到本地仓库
+
+`-a`意为所有文件，`-m`是提交的备注信息
+
+然后使用`git push`就可以推送到远程仓库了
+
+## 3.拉取文件
+
+`git pull`
