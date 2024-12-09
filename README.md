@@ -29,6 +29,7 @@ HostName github.com
 PreferredAuthentications publickey
 IdentityFile ~/.ssh/rads_mac
 ```
+上面最后一行 windows下的路径应该是`C:/Users/[username]/.ssh/[keyname]`
 
 最后一行的rads_mac是我的密钥名称
 
