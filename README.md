@@ -1,4 +1,4 @@
-# git远程连接github仓库的 quick start(mac为例)
+# 1.git远程连接github仓库的 quick start(Mac为例)
 
 [教程视频](https://www.bilibili.com/video/BV1HM411377j?vd_source=8924ad59b4f62224f165e16aa3d04f00&spm_id_from=333.788.videopod.sections&p=11)
 
@@ -29,8 +29,6 @@ HostName github.com
 PreferredAuthentications publickey
 IdentityFile ~/.ssh/rads_mac
 ```
-上面最后一行 windows下的路径应该是`C:/Users/[username]/.ssh/[keyname]`
-
 最后一行的rads_mac是我的密钥名称
 
 再到某空目录下执行`git clone [SSH]`就可以拉取仓库了
@@ -61,5 +59,19 @@ IdentityFile ~/.ssh/rads_mac
 git config --global user.name "my name" #设置name
 git config --global user.email "my email" #设置email
 git config --global --list #查看git配置信息
+```
+
+
+
+# 2.Windows
+
+只有config文件内容不同
+
+```txt
+# github
+Host github.com
+HostName github.com
+PreferredAuthentications publickey
+IdentityFile C:/Users/[username]/.ssh/rads_win
 ```
 
