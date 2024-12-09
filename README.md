@@ -2,7 +2,7 @@
 
 [教程视频](https://www.bilibili.com/video/BV1HM411377j?vd_source=8924ad59b4f62224f165e16aa3d04f00&spm_id_from=333.788.videopod.sections&p=11)
 
-## 1.创建SSH密钥 和git clone
+## 1.1.创建SSH密钥 和git clone
 
 终端
 
@@ -33,7 +33,7 @@ IdentityFile ~/.ssh/rads_mac
 
 再到某空目录下执行`git clone [SSH]`就可以拉取仓库了
 
-## 2.提交文件
+## 1.2.提交文件
 
 对于任何在本地创建的文件，需要先`git add [filename]`，这样在提交时该文件才会被包括在被提交文件中
 
@@ -49,11 +49,11 @@ IdentityFile ~/.ssh/rads_mac
 
 然后使用`git push`就可以推送到远程仓库了
 
-## 3.拉取文件
+## 1.3.拉取文件
 
 `git pull`
 
-## 4.本地git配置
+## 1.4.本地git配置
 
 ```shell
 git config --global user.name "my name" #设置name
