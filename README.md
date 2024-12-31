@@ -97,6 +97,6 @@ Host github.com
 Hostname ssh.github.com
 Port 443
 PreferredAuthentications publickey
-IdentityFile C:/Users/10702/.ssh/rads_win
+IdentityFile C:/Users/[username]/.ssh/rads_win
 ```
 
