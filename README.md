@@ -75,3 +75,28 @@ PreferredAuthentications publickey
 IdentityFile C:/Users/[username]/.ssh/rads_win
 ```
 
+# 3.连接失败
+
+`windows`电脑突然有一天无法通过`ssh`远程连接`github`了，报错如下
+
+```ssh
+ssh: connect to host github.com port 22: Connection timed out
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+```
+
+
+
+修改`config`如下即可
+
+```txtr
+# github
+Host github.com
+Hostname ssh.github.com
+Port 443
+PreferredAuthentications publickey
+IdentityFile C:/Users/10702/.ssh/rads_win
+```
+
