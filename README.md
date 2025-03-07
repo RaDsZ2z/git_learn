@@ -67,7 +67,7 @@ git config --global --list #查看git配置信息
 
 # 2.Windows
 
-只有config文件内容不同
+只有`config`文件内容不同
 
 ```txt
 # github
@@ -77,7 +77,7 @@ PreferredAuthentications publickey
 IdentityFile C:/Users/[username]/.ssh/rads_win
 ```
 
-# 3.连接失败
+# 3.windows连接失败
 
 `windows`电脑突然有一天无法通过`ssh`远程连接`github`了，报错如下
 
@@ -102,3 +102,10 @@ PreferredAuthentications publickey
 IdentityFile C:/Users/[username]/.ssh/rads_win
 ```
 
+# 4.mac连接失败
+
+突然有一天`mac`电脑也感觉有问题了，折腾了半天总结如下  
+
+不能设置`git`代理，不能使用`443`端口，需要挂梯子  
+
+现在的情况是要么速度很慢，要么直接断连，fine
