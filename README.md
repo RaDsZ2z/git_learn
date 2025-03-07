@@ -49,6 +49,8 @@ IdentityFile ~/.ssh/rads_mac
 
 然后使用`git push`就可以推送到远程仓库了
 
+
+
 ## 1.3.拉取文件
 
 `git pull`
